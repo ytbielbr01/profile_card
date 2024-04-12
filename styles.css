@@ -76,3 +76,9 @@ html {
     padding: -20px;
     border: 2px solid rgb(255, 0, 43);
 }
+
+@media (max-width: 600px) {
+    .menu {
+        width: 90%; /* Largura ajustável para telas pequenas */
+    }
+}
