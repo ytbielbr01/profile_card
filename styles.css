@@ -1,8 +1,9 @@
-body,
 html {
-    margin: 0;
-    padding: 0;
     height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 .video {
@@ -18,6 +19,7 @@ html {
     z-index: -1;
 }
 
+
 .video video {
     min-width: 100%;
     min-height: 100%;
@@ -31,17 +33,18 @@ html {
 
 
 .menu {
-    padding: 5vh 2vw; /* Adaptação para espaçamento vertical e horizontal */
+    padding: 5vh 2vw;
     text-align: center;
     position: absolute;
-    top: 50%; /* centralizar verticalmente */
-    left: 50%; /* centralizar horizontalmente */
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgb(167, 159, 159);
     border-radius: 10px;
     color: white;
-    width: 25%; /* Largura fixa para telas grandes */
+    width: 25%; 
 }
 
 
@@ -49,7 +52,7 @@ html {
     width: 100px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid rgb(89, 0, 255);
+    border: 2px solid rgb(167, 159, 159);
 
 }
 
@@ -64,16 +67,19 @@ html {
     width: 15%;
     height: auto;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid rgb(167, 159, 159);
     background-color: white;
     text-decoration: none;
 }
 
 .musica iframe {
-    margin-top: 10px;
+    padding: -5px;
+    margin-top: 15%;
+    margin-bottom: -8%;
     border-radius: 20px;
     padding: -20px;
-    border: 2px solid rgb(255, 0, 43);
+    width: 100%;
+    height: auto;
 }
 
 /* Estilos para telas pequenas (celulares) */
@@ -84,6 +90,6 @@ html {
 
     .video video {
         width: auto;
-        height: 100%; /* Largura ajustável para telas pequenas */
+        height: 100%;
     }
 }
