@@ -82,8 +82,8 @@ html {
         width: 90%; /* Largura ajustável para telas pequenas */
     }
 
-    .video video {
-        width: 900%;
-        height: 900%; /* Largura ajustável para telas pequenas */
+.video video {
+        width: auto;
+        height: 100%; /* Largura ajustável para telas pequenas */
     }
 }
